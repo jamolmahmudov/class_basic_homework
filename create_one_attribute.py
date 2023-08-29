@@ -3,6 +3,5 @@
 class Person:
     def __init__(self,name) -> None:
         self.name=name
-
 Jon=Person('Jon')
-print(type(Jon))
+print(Person(Jon))
